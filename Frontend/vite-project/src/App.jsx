@@ -14,6 +14,10 @@ function submit(){
       subject:document.getElementById('subject').value,
       message: document.getElementsByTagName('textarea')[0].value
     })
+      document.getElementById('name').value='',
+    document.getElementById('email').value='',
+    document.getElementById('subject').value='',
+    document.getElementsByTagName('textarea')[0].value=''
 }
   return (
     <>
