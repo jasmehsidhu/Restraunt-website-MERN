@@ -7,7 +7,7 @@ import axios from 'axios'
 
 function App() {
 function submit(){
-  var request=axios.post('http://99.235.137.171:1000/query',
+  var request=axios.post('http://10.0.0.65:1000/query',
     {
       name:document.getElementById('name').value,
       email:document.getElementById('email').value,
