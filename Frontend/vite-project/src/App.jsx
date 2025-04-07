@@ -7,7 +7,7 @@ import axios from 'axios'
 
 function App() {
 function submit(){
-  var request=axios.post('http://10.0.0.65:1000/query',
+  var request=axios.post('https://zaika-e-dilli-backend.onrender.com',
     {
       name:document.getElementById('name').value,
       email:document.getElementById('email').value,
